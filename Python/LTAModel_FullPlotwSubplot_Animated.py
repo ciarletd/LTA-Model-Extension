@@ -150,7 +150,7 @@ for i in range(0,Tmax,dt): #solve i for 0 to Tmax by dt
       plt.plot(BarrierX,BarrierY,'k-',linewidth=0.5)
       plt.plot(XT,ZT,'k-')
       plt.ylabel('Elevation (m)',fontsize=14)
-      plt.xlabel('Time (yrs)',fontsize=14)
+      plt.xlabel('Distance (m)',fontsize=14)
       plt.title('Periodic Barrier Retreat, Time='+str(i+1),fontsize=16)
       plt.xlim(xl, Xmax)
       plt.ylim(0, 40)
