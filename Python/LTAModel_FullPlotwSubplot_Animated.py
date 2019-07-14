@@ -157,7 +157,7 @@ for i in range(0,Tmax,dt): #solve i for 0 to Tmax by dt
       #subplot 2
       plt.subplot2grid((3,1), (2,0))
       plt.plot(OverwashFlux,'k-')
-      plt.ylabel('Overwash Flux\n($m^3/m$)',fontsize=14)
+      plt.ylabel('Overwash Flux\n($m^3/m/yr$)',fontsize=14)
       plt.xlabel('Time (yrs)',fontsize=14)
       plt.title('Overwash Flux',fontsize=16)
       plt.xlim(xl, Tmax)
